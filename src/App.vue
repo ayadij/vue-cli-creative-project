@@ -1,7 +1,9 @@
 <template>
   <div>
     <appHeader />
-    <div>app content</div>
+    <div>
+      <appFeatured />
+    </div>
     <appFooter />
   </div>
 </template>
@@ -9,11 +11,13 @@
 <script>
 import appHeader from "./components/Header.vue";
 import appFooter from "./components/Footer.vue";
+import appFeatured from "./components/Featured/index.vue";
 
 export default {
   components: {
     appHeader,
-    appFooter
+    appFooter,
+    appFeatured
   }
 };
 </script>

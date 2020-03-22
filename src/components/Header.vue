@@ -11,7 +11,21 @@
         class="side-drawer"
         :md-right="true"
         :md-active.sync="showSidepanel"
-      />
+      >
+        <ul class="drawer-list">
+          <li class="drawer-list-li">
+            <span class="li-text">&#2039; Home</span>
+          </li>
+
+          <li class="drawer-list-li">
+            <span class="li-text">&#2039; About</span>
+          </li>
+
+          <li class="drawer-list-li">
+            <span class="li-text">&#2039; Contact</span>
+          </li>
+        </ul>
+      </md-drawer>
     </div>
   </header>
 </template>
@@ -31,4 +45,15 @@ export default {
 };
 </script>
 
-<style lang=""></style>
+<style scoped>
+.drawer-list {
+  padding: 40px;
+  list-style: none;
+}
+.drawer-list-li {
+  padding: 40px;
+}
+.li-text {
+  font-size: 2em;
+}
+</style>

@@ -7,9 +7,11 @@
           <div>
             <a
               class="github-link"
+              target="_blank"
               href="https://github.com/ayadij/vue-cli-creative-project"
               >Github Link</a
             >
+            <div style="font-size:.7em">aya dijkwel & moa dijkwel</div>
           </div>
         </div>
       </div>

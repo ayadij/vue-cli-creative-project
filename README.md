@@ -27,6 +27,7 @@ We will grade your projects based on:
 - you have three pages
 - you have detailed mock data
 - how well you follow web design principles: spacing, typography, color, consistency, and responsive design.
+
 TAs will assign scores in these ranges:
 
 - 90-100: Excellent use of Vue, clearly follows web design principles

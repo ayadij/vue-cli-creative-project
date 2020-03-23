@@ -46,15 +46,19 @@ header .side-drawer {
 footer {
   margin-top: 130px;
   background: #212121;
-  color: #565656;
+  color: #d6d6d6;
   font-weight: 500;
   font-size: 20px;
   line-height: 32px;
   padding: 40px 0px;
 }
 
+.github-link {
+  color: #c10a28;
+}
+
 footer .contact {
-  border-top: 1px solid #424242;
+  border-top: 1px solid #d6d6d6;
   padding: 20px;
 }
 

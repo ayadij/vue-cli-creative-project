@@ -5,7 +5,9 @@
         <img :src="logoIcon" />
         <div class="contact">
           <div>
-            <a href="https://github.com/ayadij/vue-cli-creative-project"
+            <a
+              class="github-link"
+              href="https://github.com/ayadij/vue-cli-creative-project"
               >Github Link</a
             >
           </div>

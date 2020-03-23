@@ -28,10 +28,11 @@
           <div class="md-subhead">
             <span>&#128338; {{ product.price }}</span>
           </div>
+          <strong>{{ product.name }}</strong>
         </md-card-header>
+
         <md-card-content>
           {{ product.desc }}
-          <div></div>
         </md-card-content>
       </md-card>
     </div>
@@ -48,7 +49,7 @@ export default {
         { name: "tips", active: false }, // tips
         { name: "updates", active: false } // updates
       ],
-      activeProduct: "pizza",
+      activeProduct: "news",
       products: []
     };
   },

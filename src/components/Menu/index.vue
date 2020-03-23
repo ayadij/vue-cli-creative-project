@@ -14,7 +14,6 @@
       </md-button>
     </div>
     <div class="products_items" v-scroll-reveal.reset="{ delay: 500 }">
-      >
       <md-card
         v-for="(product, index) in products"
         :key="index"

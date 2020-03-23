@@ -1,6 +1,6 @@
 <template>
   <div class="container newsl_container">
-    <h2>Join our newsletter</h2>
+    <h2>Join to our newsletter</h2>
     <div class="form">
       <input type="text" v-model="email" />
       <button @click="submitHandler">Subscribe</button>
@@ -21,6 +21,7 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {
   data() {
@@ -50,29 +51,29 @@ export default {
       } else {
         this.error = valid[1];
       }
-    },
-    addEmail(email) {
-      this.$http
-        .get(`users.json?orderBy=\"email\"&&equalTo=\"${email}\"`)
-        .then(response => {
-          if (Object.getOwnPropertyNames(response.data).length === 0) {
-            this.$http
-              .post("users.json", { email: this.email })
-              .then(response => {
-                this.success = "Thank you";
-              });
-          } else {
-            this.success = "Your email is already on the list";
-          }
-        });
-      this.clearSuccess();
-    },
-    clearSuccess() {
-      setTimeout(() => {
-        this.email = "";
-        this.success = "";
-      }, 3000);
     }
+    // addEmail(email) {
+    //   this.$http
+    //     .get(`users.json?orderBy="email"&&equalTo="${email}"`)
+    //     .then(response => {
+    //       if (Object.getOwnPropertyNames(response.data).length === 0) {
+    //         this.$http
+    //           .post("users.json", { email: this.email })
+    //           .then(response => {
+    //             this.success = "Thank you";
+    //           });
+    //       } else {
+    //         this.success = "Your email is already on the list";
+    //       }
+    //     });
+    //   this.clearSuccess();
+    // },
+    // clearSuccess() {
+    //   setTimeout(() => {
+    //     this.email = "";
+    //     this.success = "";
+    //   }, 3000);
+    // }
   }
 };
 </script>

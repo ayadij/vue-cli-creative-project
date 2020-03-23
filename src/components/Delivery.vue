@@ -10,10 +10,10 @@
 </template>
 
 <script>
-import appHeader from "./components/Header.vue";
-import appFooter from "./components/Footer.vue";
-import appFeatured from "./components/Featured/index.vue";
-import appCallUs from "./components/CallUs/index.vue";
+import appHeader from "./Header.vue";
+import appFooter from "./Footer.vue";
+import appFeatured from "./Featured/index.vue";
+import appCallUs from "./CallUs/index.vue";
 
 export default {
   components: {
@@ -26,5 +26,5 @@ export default {
 </script>
 
 <style>
-@import "./assets/style.css";
+@import "../assets/style.css";
 </style>

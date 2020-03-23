@@ -30,10 +30,10 @@
 import appAnim from "./anim.vue";
 
 export default {
-  data(){
+  data() {
     return {
-      secondAnim: false;
-    }
+      secondAnim: false
+    };
   },
   components: {
     appAnim

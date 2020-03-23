@@ -1,26 +1,25 @@
 <template>
   <div>
-    <appHeader />
+    <comp-header />
+    <div class="container"></div>
     <div>
-      <appFeatured />
-      <appMenu />
+      <comp-featured />
+      <router-view />
     </div>
-    <appFooter />
+    <comp-footer />
   </div>
 </template>
 
 <script>
-import appHeader from "./components/Header.vue";
-import appFooter from "./components/Footer.vue";
-import appFeatured from "./components/Featured/index.vue";
-import appMenu from "./components/Menu/index.vue";
+import compHeader from "./components/Header.vue";
+import compFooter from "./components/Footer.vue";
+import compFeatured from "./components/Featured/index.vue";
 
 export default {
   components: {
-    appHeader,
-    appFooter,
-    appFeatured,
-    appMenu
+    compHeader,
+    compFooter,
+    compFeatured
   }
 };
 </script>

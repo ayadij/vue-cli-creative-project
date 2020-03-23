@@ -14,15 +14,19 @@
       >
         <ul class="drawer-list">
           <li class="drawer-list-li">
-            <span class="li-text">&#2039; Home</span>
+            <span class="li-text"><a href="/">&#2039; Home</a></span>
           </li>
 
           <li class="drawer-list-li">
-            <span class="li-text">&#2039; Delivery</span>
+            <span class="li-text"
+              ><a href="#/delivery">&#2039; Delivery</a></span
+            >
           </li>
 
           <li class="drawer-list-li">
-            <span class="li-text">&#2039; Newsletter</span>
+            <span class="li-text"
+              ><a href="#/newsletter">&#2039; Newsletter</a></span
+            >
           </li>
         </ul>
       </md-drawer>

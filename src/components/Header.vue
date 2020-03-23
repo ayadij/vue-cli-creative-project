@@ -18,11 +18,11 @@
           </li>
 
           <li class="drawer-list-li">
-            <span class="li-text">&#2039; About</span>
+            <span class="li-text">&#2039; Delivery</span>
           </li>
 
           <li class="drawer-list-li">
-            <span class="li-text">&#2039; Contact</span>
+            <span class="li-text">&#2039; Newsletter</span>
           </li>
         </ul>
       </md-drawer>

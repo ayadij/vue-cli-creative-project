@@ -4,8 +4,8 @@
       <div>
         <img :src="logoIcon" />
         <div class="contact">
-          <div>Github Link:</div>
-          <div>https://github.com/ayadij/vue-cli-creative-project</div>
+          <div><a href="https://github.com/ayadij/vue-cli-creative-project">Github Link</a></div>
+          <!-- <div>https://github.com/ayadij/vue-cli-creative-project</div> -->
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@
   <div class="call_us_container">
     <div class="container">
       <div class="first" v-scroll-reveal.reset="{ delay: 200, scarle: 2 }">
-        <h1>Hungry?</h1>
+        <h1>Tested?</h1>
       </div>
 
       <div
@@ -20,7 +20,7 @@
       </div>
 
       <div class="third" v-scroll-reveal.reset="{ delay: 600, scarle: 2 }">
-        <span>Stay Home.</span><span>Order Delivery.</span>
+        <span>Stay Home.</span><span>We deliver your test.</span>
       </div>
     </div>
   </div>

@@ -19,24 +19,23 @@
 
 <script>
 import { Carousel, Slide } from "vue-carousel";
-import slideBck from "../../assets/images/slide_bck.jpg";
-import slideBck2 from "../../assets/images/slide_bck2.jpg";
-import pizzaOne from "../../assets/images/pizza_one.png";
-import pizzaTwo from "../../assets/images/pizza_three.png";
+import slideBck from "../../assets/images/slide_bck.png";
+import slideBck2 from "../../assets/images/slide_bck2.png";
+import corona from "../../assets/images/corona.png";
+import lilcorona from "../../assets/images/lilcorona.png";
 
 export default {
   data() {
     return {
       slides: [
         {
-          text: "20% off on all pizzas",
-          bck: slideBck,
-          img: pizzaOne
+          bck: slideBck2,
+          img: lilcorona
         },
         {
-          text: "Buy one get one free",
-          bck: slideBck2,
-          img: pizzaTwo
+          text: "Protect yourself and others from coronavirus",
+          bck: slideBck,
+          img: corona
         }
       ]
     };

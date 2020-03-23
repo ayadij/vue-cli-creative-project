@@ -9,8 +9,6 @@
               >Github Link</a
             >
           </div>
-          <div>https://github.com/ayadij/vue-cli-creative-project</div>
-          <!-- <div>https://github.com/ayadij/vue-cli-creative-project</div> -->
         </div>
       </div>
     </div>

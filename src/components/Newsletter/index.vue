@@ -1,6 +1,6 @@
 <template>
   <div class="container newsl_container">
-    <h2>Join to our newsletter</h2>
+    <h2>Join Our Daily Newsletter</h2>
     <div class="form">
       <input type="text" v-model="email" />
       <button @click="submitHandler">Subscribe</button>
@@ -16,7 +16,7 @@
         By signing up for this newsletter, you will be emailed daily with
         updates related to COVID-19. We will include tips on how to stay safe
         and maintain a life as sanitary and sane as possible. You may opt out of
-        these email updates at any time. Thank you for your interest!
+        these email updates at any time. <br />Thank you for your interest.
       </p>
     </div>
   </div>

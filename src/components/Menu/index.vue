@@ -1,7 +1,7 @@
 <template>
   <div class="container menu_container">
     <div class="top" v-scroll-reveal.reset>
-      <h2>Menu</h2>
+      <h2>What You Need to Know</h2>
     </div>
     <div class="buttons" v-scroll-reveal.reset="{ delay: 250 }">
       <md-button
@@ -26,7 +26,7 @@
         <md-card-header>
           <h2 class="md-title"></h2>
           <div class="md-subhead">
-            <span>$ {{ product.price }}</span>
+            <span>&#128338; {{ product.price }}</span>
           </div>
         </md-card-header>
         <md-card-content>
@@ -43,10 +43,10 @@ export default {
   data() {
     return {
       buttons: [
-        { name: "pizza", active: true },
-        { name: "burgers", active: false },
-        { name: "salat", active: false },
-        { name: "dessert", active: false }
+        { name: "news", active: true }, //news
+        { name: "resources", active: false }, // resources
+        { name: "tips", active: false }, // tips
+        { name: "updates", active: false } // updates
       ],
       activeProduct: "pizza",
       products: []

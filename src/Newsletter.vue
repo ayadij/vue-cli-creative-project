@@ -3,7 +3,7 @@
     <appHeader />
     <div>
       <appFeatured />
-      <appCallUs />
+      <appNewsletter />
     </div>
     <appFooter />
   </div>
@@ -13,14 +13,14 @@
 import appHeader from "./components/Header.vue";
 import appFooter from "./components/Footer.vue";
 import appFeatured from "./components/Featured/index.vue";
-import appNewsLetter from "./components/Menu/index.vue";
+import appNewsletter from ".components/Newsletter/index.vue";
 
 export default {
   components: {
     appHeader,
     appFooter,
     appFeatured,
-    appNewsLetter
+    appNewsletter
   }
 };
 </script>

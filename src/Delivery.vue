@@ -13,7 +13,7 @@
 import appHeader from "./components/Header.vue";
 import appFooter from "./components/Footer.vue";
 import appFeatured from "./components/Featured/index.vue";
-import appCallUs from "./components/Menu/index.vue";
+import appCallUs from "./components/CallUs/index.vue";
 
 export default {
   components: {
